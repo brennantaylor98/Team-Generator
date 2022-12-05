@@ -54,7 +54,7 @@ function generateHTML(data){
         
         
     });
-    fs.writeFile('./dist/team.html', html+closing, (err) => {
+    fs.writeFile('./index.html', html+closing, (err) => {
         if (err){
             console.log(err)
         }
